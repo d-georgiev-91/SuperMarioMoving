@@ -43,7 +43,6 @@ imageObj.onload = function () {
             blob.scaleX(1);
         } else if (e.keyCode == 37) {
             blob.scaleX(-1);
-            blob.x(blob)
         } else {
             return;
         }
